@@ -5,9 +5,10 @@ For the source script, see https://github.com/TortoiseGit/TortoiseGit/blob/maste
 
 The code in is distributed under the GNU General Public License. 
 
-## Prerequiste
+## Prerequisite
 
-Microsoft Word needs to be installed.
+Microsoft Word needs to be installed. Contrary to the source script, this port
+does not support using OpenOffice (or LibreOffice) to perform the comparison. 
 
 ## Usage 
 
