@@ -16,7 +16,7 @@ Microsoft Word needs to be installed.
 ## Build instructions
 
 Open and build the project in XCode. The header file `Word.h` was initially generated
-using the follwing command (see also this documentation from [Apple](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/ScriptingBridgeConcepts/UsingScriptingBridge/UsingScriptingBridge.html)
+using the follwing command (see also this documentation from [Apple](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/ScriptingBridgeConcepts/UsingScriptingBridge/UsingScriptingBridge.html))
 
 `sdef /Applications/Microsoft\ Word.app | sdp -fh --basename Word`
 
