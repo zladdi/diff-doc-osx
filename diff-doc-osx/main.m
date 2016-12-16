@@ -141,8 +141,9 @@ int main(int argc, const char * argv[]) {
                 {
                     // Contrary to the original TortoiseSVN/Git script, we cannot use duck typing -> comment out this line,
                     // as we only support the newer interface below
-                    
                     //[destination comparePath:sBaseDoc];
+                    printf("Warning: Office versions up to Office 2000 are not officially supported.\n");
+                    [destination comparePath:sBaseDoc authorName:@"Comparison" target:wdCompareTargetNew detectFormatChanges:YES ignoreAllComparisonWarnings:YES addToRecentFiles:NO];
                     
                 }
                 @catch(NSException * e)
