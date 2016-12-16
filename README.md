@@ -12,7 +12,8 @@ does not support using OpenOffice (or LibreOffice) to perform the comparison.
 
 ## Usage 
 
-`diff-doc-osx base.doc new.doc`
+`diff-doc-osx <absolute-path-to-base.doc> <absolute-path-to-new.doc>`
+
 
 ## Build instructions
 
@@ -25,7 +26,8 @@ The resulting file was adapted so as to compile error- (but not warning-) free.
 
 ## Known issues
 
-Newer versions of Microsoft Office apps are sandboxed. This leads to the annoying
+* Relative paths to documents are not supported 
+* Newer versions of Microsoft Office apps are sandboxed. This leads to the annoying
 "Grant File Access" dialog to pop up for each of the documents to be compared in cases
 where Word does not have permission to access the respective file already.
 
