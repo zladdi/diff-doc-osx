@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D3C363C1E00B3BB0089C761 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3C363B1E00B3BB0089C761 /* main.m */; };
-		4D3C364D1E00C3C20089C761 /* diff-doc-osx in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4D3C36381E00B3BB0089C761 /* diff-doc-osx */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		4D3C36501E00C4610089C761 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3C364F1E00C4610089C761 /* ScriptingBridge.framework */; };
+		4D9610801E0426C00018CE02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D96107F1E0426C00018CE02 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4D3C36361E00B3BB0089C761 /* CopyFiles */ = {
+		4D96107A1E0426C00018CE02 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,72 +23,57 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4D3C36381E00B3BB0089C761 /* diff-doc-osx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "diff-doc-osx"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D3C363B1E00B3BB0089C761 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4D3C36421E00B4CD0089C761 /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
-		4D3C36431E00B9A20089C761 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		4D3C36441E00BC110089C761 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
-		4D3C364F1E00C4610089C761 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
+		4D96107C1E0426C00018CE02 /* diff-doc-osx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "diff-doc-osx"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D96107F1E0426C00018CE02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D9610861E04272A0018CE02 /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4D3C36351E00B3BB0089C761 /* Frameworks */ = {
+		4D9610791E0426C00018CE02 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D3C36501E00C4610089C761 /* ScriptingBridge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4D3C362F1E00B3BB0089C761 = {
+		4D9610731E0426C00018CE02 = {
 			isa = PBXGroup;
 			children = (
-				4D3C36441E00BC110089C761 /* COPYING */,
-				4D3C36431E00B9A20089C761 /* LICENSE */,
-				4D3C363A1E00B3BB0089C761 /* diff-doc-osx */,
-				4D3C36391E00B3BB0089C761 /* Products */,
-				4D3C364E1E00C4600089C761 /* Frameworks */,
+				4D96107E1E0426C00018CE02 /* diff-doc-osx */,
+				4D96107D1E0426C00018CE02 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4D3C36391E00B3BB0089C761 /* Products */ = {
+		4D96107D1E0426C00018CE02 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D3C36381E00B3BB0089C761 /* diff-doc-osx */,
+				4D96107C1E0426C00018CE02 /* diff-doc-osx */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4D3C363A1E00B3BB0089C761 /* diff-doc-osx */ = {
+		4D96107E1E0426C00018CE02 /* diff-doc-osx */ = {
 			isa = PBXGroup;
 			children = (
-				4D3C36421E00B4CD0089C761 /* Word.h */,
-				4D3C363B1E00B3BB0089C761 /* main.m */,
+				4D9610861E04272A0018CE02 /* Word.h */,
+				4D96107F1E0426C00018CE02 /* main.m */,
 			);
 			path = "diff-doc-osx";
-			sourceTree = "<group>";
-		};
-		4D3C364E1E00C4600089C761 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4D3C364F1E00C4610089C761 /* ScriptingBridge.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4D3C36371E00B3BB0089C761 /* diff-doc-osx */ = {
+		4D96107B1E0426C00018CE02 /* diff-doc-osx */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D3C363F1E00B3BB0089C761 /* Build configuration list for PBXNativeTarget "diff-doc-osx" */;
+			buildConfigurationList = 4D9610831E0426C00018CE02 /* Build configuration list for PBXNativeTarget "diff-doc-osx" */;
 			buildPhases = (
-				4D3C36341E00B3BB0089C761 /* Sources */,
-				4D3C36351E00B3BB0089C761 /* Frameworks */,
-				4D3C36361E00B3BB0089C761 /* CopyFiles */,
+				4D9610781E0426C00018CE02 /* Sources */,
+				4D9610791E0426C00018CE02 /* Frameworks */,
+				4D96107A1E0426C00018CE02 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -98,54 +81,54 @@
 			);
 			name = "diff-doc-osx";
 			productName = "diff-doc-osx";
-			productReference = 4D3C36381E00B3BB0089C761 /* diff-doc-osx */;
+			productReference = 4D96107C1E0426C00018CE02 /* diff-doc-osx */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4D3C36301E00B3BB0089C761 /* Project object */ = {
+		4D9610741E0426C00018CE02 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Zlatko Franjcic";
 				TargetAttributes = {
-					4D3C36371E00B3BB0089C761 = {
+					4D96107B1E0426C00018CE02 = {
 						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 4D3C36331E00B3BB0089C761 /* Build configuration list for PBXProject "diff-doc-osx" */;
+			buildConfigurationList = 4D9610771E0426C00018CE02 /* Build configuration list for PBXProject "diff-doc-osx" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 4D3C362F1E00B3BB0089C761;
-			productRefGroup = 4D3C36391E00B3BB0089C761 /* Products */;
+			mainGroup = 4D9610731E0426C00018CE02;
+			productRefGroup = 4D96107D1E0426C00018CE02 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D3C36371E00B3BB0089C761 /* diff-doc-osx */,
+				4D96107B1E0426C00018CE02 /* diff-doc-osx */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4D3C36341E00B3BB0089C761 /* Sources */ = {
+		4D9610781E0426C00018CE02 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D3C363C1E00B3BB0089C761 /* main.m in Sources */,
+				4D9610801E0426C00018CE02 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4D3C363D1E00B3BB0089C761 /* Debug */ = {
+		4D9610811E0426C00018CE02 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -192,7 +175,7 @@
 			};
 			name = Debug;
 		};
-		4D3C363E1E00B3BB0089C761 /* Release */ = {
+		4D9610821E0426C00018CE02 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -232,14 +215,14 @@
 			};
 			name = Release;
 		};
-		4D3C36401E00B3BB0089C761 /* Debug */ = {
+		4D9610841E0426C00018CE02 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		4D3C36411E00B3BB0089C761 /* Release */ = {
+		4D9610851E0426C00018CE02 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -249,24 +232,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4D3C36331E00B3BB0089C761 /* Build configuration list for PBXProject "diff-doc-osx" */ = {
+		4D9610771E0426C00018CE02 /* Build configuration list for PBXProject "diff-doc-osx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D3C363D1E00B3BB0089C761 /* Debug */,
-				4D3C363E1E00B3BB0089C761 /* Release */,
+				4D9610811E0426C00018CE02 /* Debug */,
+				4D9610821E0426C00018CE02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D3C363F1E00B3BB0089C761 /* Build configuration list for PBXNativeTarget "diff-doc-osx" */ = {
+		4D9610831E0426C00018CE02 /* Build configuration list for PBXNativeTarget "diff-doc-osx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D3C36401E00B3BB0089C761 /* Debug */,
-				4D3C36411E00B3BB0089C761 /* Release */,
+				4D9610841E0426C00018CE02 /* Debug */,
+				4D9610851E0426C00018CE02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4D3C36301E00B3BB0089C761 /* Project object */;
+	rootObject = 4D9610741E0426C00018CE02 /* Project object */;
 }
