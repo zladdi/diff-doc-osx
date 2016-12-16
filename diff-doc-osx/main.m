@@ -86,6 +86,8 @@ int main(int argc, const char * argv[]) {
             }
             @catch(NSException * e)
             {
+                printf("You must have Microsoft Word installed to perform this operation.\n");
+                return 1;
             }
             //@finally
             //{
