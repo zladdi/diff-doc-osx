@@ -22,7 +22,7 @@ using the follwing command (see also this documentation from [Apple](https://dev
 
 `sdef /Applications/Microsoft\ Word.app | sdp -fh --basename Word`
 
-The resulting file was adapted so as to compile error- (but not warning-) free.
+The resulting file was adapted so as to be free of compile errors (but not free of warnings).
 
 ## Known issues
 
