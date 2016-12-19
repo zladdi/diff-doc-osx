@@ -1,3 +1,2 @@
 DerivedData
-*.xcodeproj/xcuserdata
-
+**/xcuserdata
