@@ -51,7 +51,7 @@ int main(int argc, const char * argv[]) {
             if (num < 2)
             {
                 NSString *basename = @(argv[0]); //[NSString stringWithUTF8String:argv[0]];
-                printf("Usage: %s base.doc new.doc\n", [[[basename lastPathComponent] stringByDeletingPathExtension] UTF8String]);
+                printf("Usage: %s <absolute-path-to-base.doc> <absolute-path-to-new.doc>\n", [[[basename lastPathComponent] stringByDeletingPathExtension] UTF8String]);
                 return 1;
             }
             
